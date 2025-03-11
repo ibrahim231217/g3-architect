@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Work Sans";
+}
+
+
+header {
+ width: 100%;
+height: 1322px;
+/* flex-shrink: 0; */
+
+background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+}
+
+nav h4 {
+color: var(--Dark-01, #131313);
+/* text-align: center; */
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+/* padding-top: 30px; */
+margin-top: 50px;
+margin-left: 228px;
+/* 
+width: 302px;
+height: 53px; */
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 240px;
+    margin-top: 63px;
+}
+nav ul li {
+
+list-style: none;
+/* display: flex; */
+
+color: var(--Dark-02, #424242);
+/* text-align: center; */
+/* font-family: "Work Sans"; */
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 26px;  */
+/* width: 477px;
+height: 26px; */
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    /* display: flex; */
+}
+
+
+
+
+
+
+
+.Banner-greetings h2 {
+    width: 862px;
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: "Work Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Banner {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-greetings h4 {
+color: var(--Dark-01, #131313);
+text-align: center;
+font-family: "Work Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Banner-greetings p {
+    padding-top: 32px;
+    /* width: 868px; */
+    height: 52px;
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-bottom: 32px;
+}
+.explore-btn {
+    width: 180px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+
+/* textsyle */
+color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-style: none;
+/* padding-top: 50px; */
+margin-bottom: 50px;
+}
+
+@media screen and (max-width:576px) {
+     
+     nav{
+        flex-direction:column;
+        text-align: center;
+    }
+    nav h4{
+        padding-bottom: 20px;
+    }
+} 
