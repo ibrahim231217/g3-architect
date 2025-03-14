@@ -233,6 +233,8 @@ nav ul li a {
 .feature {
     margin-top: 130px;
     /* display: flex; */
+    width: 100%;
+/* height: 4760px; */
 }
 
 .feature-main-para {
@@ -314,17 +316,78 @@ text-align: right;
 
 
 
+.facts{
+    margin-top: 168px;
+}
+.fact-header-pera{
+    margin-left: 240px;
+    gap: 20px;
+}
+
+.fact-header-pera h3 {
+    width: 258px;
+    height: 53px;
+
+    color: var(--Dark-01, #131313);
+font-family: "Work Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fact-header-pera p {
+    width: 542px;
+    height: 52px;
+
+    color: var(--Dark-03, #727272);
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+
+}
+
+.icon-text-pera {
+    margin-left: 290px;
+    /* display: flex; */
+    /* border: 1px solid rgba(255, 0, 0, 0.584); */
+    width: 241.831px;
+height: 241.831px;
 
 
+border-radius: 8px;
+border: 1px solid #FF900E;
+
+text-align: center;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+/* gap: 124px; */
+}
 
 
+.flex-marbo {
+    display: flex;
+    padding-top: 100px;
+}
+.icon-text-pera h5 {
+    color: var(--Dark-02, #424242);
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
-
-
-
-
-
-
+.icon-text-pera p {
+    color: var(--Dark-03, #727272);
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 
 
