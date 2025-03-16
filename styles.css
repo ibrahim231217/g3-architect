@@ -253,9 +253,6 @@ nav ul li a {
     margin-top: 18px;
 }
 
-
-
-
 .experience {
     width: 342px;
     height: 200px;
@@ -741,15 +738,9 @@ align-items: center;
 .sponsor {
     margin-top: 60px;
 }
-
-.sponsor-pic img {
-    /* width: 110px ;
-    height: 50px; */
-}
 .sponsor-pic {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* flex-direction: column; */
     width: 100px;
     height: 250px;
     gap: 14px;
@@ -759,7 +750,6 @@ align-items: center;
     margin: 0px auto;  
 }
 
-
 .copyright p {
     text-align: center;
     padding-top: 39px;
@@ -768,15 +758,9 @@ align-items: center;
 .copyright-header {
     border-radius: 8px;
     background: #FFF4E7;
-    /* width: 1440px; */
     width: 80%;
     height: 130px;
-
-
-   
     font-size: 20px;
-    
-
     justify-content: center;
     text-align: center;
     margin: 80px auto;
